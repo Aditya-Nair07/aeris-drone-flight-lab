@@ -1,0 +1,9 @@
+.venv/
+.runtime/
+.physics/
+micromamba.tar.bz2
+__pycache__/
+*.log
+Library/
+*.pdf
+AERIS-Flight-Lab-Source.zip

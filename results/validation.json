@@ -1,0 +1,162 @@
+[
+  {
+    "scenario": "hover",
+    "passed": true,
+    "simulated_seconds": 20.0,
+    "final_phase": "HOVER",
+    "final_position_m": [
+      4.302303674057569e-05,
+      -1.3565007320257713e-05,
+      1.2051972773198467
+    ],
+    "tail_rmse_m": 0.007225476060227596,
+    "visited": 0,
+    "gust_peak_error_m": null,
+    "events": [
+      {
+        "t": 0,
+        "text": "Model ready \u00b7 propeller / power checks complete"
+      },
+      {
+        "t": 0.0,
+        "text": "ARMED \u00b7 virtual altitude assistance enabled"
+      },
+      {
+        "t": 1.86,
+        "text": "Takeoff complete \u00b7 stabilized at 1.2 m"
+      }
+    ]
+  },
+  {
+    "scenario": "waypoints",
+    "passed": true,
+    "simulated_seconds": 28.45,
+    "final_phase": "LANDED",
+    "final_position_m": [
+      -4.550044622665956e-05,
+      -0.0012636966107843878,
+      0.0177050636894816
+    ],
+    "tail_rmse_m": 0.8549050345013506,
+    "visited": 5,
+    "gust_peak_error_m": null,
+    "events": [
+      {
+        "t": 0,
+        "text": "Model ready \u00b7 propeller / power checks complete"
+      },
+      {
+        "t": 0.0,
+        "text": "ARMED \u00b7 virtual altitude assistance enabled"
+      },
+      {
+        "t": 1.86,
+        "text": "Takeoff complete \u00b7 stabilized at 1.2 m"
+      },
+      {
+        "t": 2.86,
+        "text": "Beacon 1/5 acquired \u00b7 held within 0.15 m for 1 s"
+      },
+      {
+        "t": 6.98,
+        "text": "Beacon 2/5 acquired \u00b7 held within 0.15 m for 1 s"
+      },
+      {
+        "t": 11.44,
+        "text": "Beacon 3/5 acquired \u00b7 held within 0.15 m for 1 s"
+      },
+      {
+        "t": 15.9,
+        "text": "Beacon 4/5 acquired \u00b7 held within 0.15 m for 1 s"
+      },
+      {
+        "t": 20.36,
+        "text": "Beacon 5/5 acquired \u00b7 held within 0.15 m for 1 s"
+      },
+      {
+        "t": 20.36,
+        "text": "All five beacons acquired \u00b7 returning home"
+      },
+      {
+        "t": 23.45,
+        "text": "Home acquired \u00b7 landing"
+      },
+      {
+        "t": 28.45,
+        "text": "Touchdown confirmed \u00b7 motors disarmed"
+      }
+    ]
+  },
+  {
+    "scenario": "disturbance",
+    "passed": true,
+    "simulated_seconds": 22.0,
+    "final_phase": "HOVER",
+    "final_position_m": [
+      2.805295221041492e-05,
+      -3.0375584314172e-05,
+      1.2039885831030317
+    ],
+    "tail_rmse_m": 0.006572134478715846,
+    "visited": 0,
+    "gust_peak_error_m": 0.5646874982099915,
+    "events": [
+      {
+        "t": 0,
+        "text": "Model ready \u00b7 propeller / power checks complete"
+      },
+      {
+        "t": 0.0,
+        "text": "ARMED \u00b7 virtual altitude assistance enabled"
+      },
+      {
+        "t": 1.86,
+        "text": "Takeoff complete \u00b7 stabilized at 1.2 m"
+      },
+      {
+        "t": 7.0,
+        "text": "Scheduled disturbance \u00b7 lateral gust applied"
+      }
+    ]
+  },
+  {
+    "scenario": "linkloss",
+    "passed": true,
+    "simulated_seconds": 14.51,
+    "final_phase": "LANDED",
+    "final_position_m": [
+      -0.00012143381189760469,
+      -2.5197363563766067e-05,
+      0.01775031497276969
+    ],
+    "tail_rmse_m": 0.16729329380702376,
+    "visited": 0,
+    "gust_peak_error_m": null,
+    "events": [
+      {
+        "t": 0,
+        "text": "Model ready \u00b7 propeller / power checks complete"
+      },
+      {
+        "t": 0.0,
+        "text": "ARMED \u00b7 virtual altitude assistance enabled"
+      },
+      {
+        "t": 1.86,
+        "text": "Takeoff complete \u00b7 stabilized at 1.2 m"
+      },
+      {
+        "t": 9.0,
+        "text": "Wi-Fi link lost \u00b7 command timeout running"
+      },
+      {
+        "t": 9.51,
+        "text": "500 ms timeout \u00b7 simulated assisted landing engaged"
+      },
+      {
+        "t": 14.51,
+        "text": "Touchdown confirmed \u00b7 motors disarmed"
+      }
+    ]
+  }
+]
